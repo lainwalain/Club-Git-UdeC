@@ -19,12 +19,16 @@ img {
     justify-content: center;
 }
 header {
-    background-color: transparent;
-    padding: 1rem;
+    background: url("../img/cartel.jpg")no-repeat center;
+    padding: 5rem;
     text-align: center;
     border-bottom: 4px solid var(--udc-blue);
 }
+contenedor-titulo{
+    text-align: center;
+    margin: 2rem auto;
 
+}
 main {
     max-width: 800px;
     margin: 2rem auto;
