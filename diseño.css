@@ -10,8 +10,12 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     line-height: 1.6;
     margin: 0;
+    padding: 0;
     color: var(--text-dark);
-    background-color: transparent;
+    background: url("img/wall2.jpg") no-repeat center center fixed;
+    background-size:cover;
+    max-width: 100%;
+    justify-content: center;
 }
 img {
     max-width: 300px;
@@ -20,26 +24,47 @@ img {
 }
 header {
     background-color: transparent;
-    padding: 1rem;
+    padding: 5px;
     text-align: center;
     border-bottom: 4px solid var(--udc-blue);
 }
+.btn-cta1{
+    color :var(--text-dark)
 
+}
+.btn-cta2{
+    color :var(--text-dark)
+}
 main {
-    max-width: 800px;
-    margin: 2rem auto;
+    max-width: fit-content;
+    margin: 0;
     padding: 0 1rem;
+    align-items: center;
 }
 
 .hero {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    background: url("img/hero.jpg")center center/cover no-repeat;
+    border-radius: 16px;
+    max-width:90%;
+    max-height:600px;
+    text-align: center;
+    padding: 2rem;
+    align-items: center;
 }
-
+.hero h2{
+    color:#000000
+}
+.hero p{
+     color:#000000
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    background: url("img/lentes.jpg");
+    background: transparent;
+    grid-template-rows: auto 1fr; 
+    padding: 2rem;
 }
 
 article {
