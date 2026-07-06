@@ -1,0 +1,63 @@
+/* Paleta de colores y variables */
+:root {
+    --udc-blue: #004a99;
+    --git-orange: #f05032;
+    --bg-light: #f7f4f4;
+    --text-dark: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+}
+
+header {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 4px solid var(--udc-blue);
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+article {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-cta {
+    display: inline-block;
+    background: var(--git-orange);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
