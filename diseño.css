@@ -1,4 +1,4 @@
-/* Paleta de colores y variables */
+
 :root {
     --udc-blue: hsl(0, 0%, 0%);
     --git-orange: #32f032;
@@ -12,10 +12,10 @@ body {
     margin: 0;
     padding: 0;
     color: var(--text-dark);
-    background: url("img/wall2.jpg") no-repeat center center fixed;
     background-size:cover;
     max-width: 100%;
     justify-content: center;
+    background-color:#c6b29a;
 }
 img {
     max-width: 300px;
@@ -23,10 +23,15 @@ img {
     justify-content: center;
 }
 header {
-    background-color: transparent;
-    padding: 5px;
+    background-color: #661f21;
+    padding: 20px;
     text-align: center;
-    border-bottom: 4px solid var(--udc-blue);
+    z-index: 1000;
+    border-radius:30px;
+    margin-right:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left:1rem;
 }
 .btn-cta1{
     color :var(--text-dark)
@@ -44,13 +49,14 @@ main {
 
 .hero {
     margin-bottom: 1rem;
-    background: url("img/hero.jpg")center center/cover no-repeat;
+    background: url("img/heroo.jpg")center center/cover no-repeat;
     border-radius: 16px;
     max-width:90%;
-    max-height:600px;
+    max-height:100%;
     text-align: center;
     padding: 2rem;
-    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 .hero h2{
     color:#000000
@@ -63,17 +69,43 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     background: transparent;
-    grid-template-rows: auto 1fr; 
+    grid-template-columns: 1fr; 
     padding: 2rem;
+    max-width: auto;
+    max-height: auto;
+    
 }
-
+.grid article{
+    background-color: #e3d4c4;
+}
+.redpussy img{
+    display:flex;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%center center/cover no-repeat;
+    
+}
+.redpussy2 img{
+    border-radius: 50%;
+    object-fit:cover;
+}
+.redcat img{
+    display:flex;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
 article {
     background: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 16px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+.redcat-article{
+    background-color: #c2957b;
+}
 .btn-cta {
     display: inline-block;
     background-color: transparent;
