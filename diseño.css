@@ -71,24 +71,33 @@ main {
     background: transparent;
     grid-template-columns: 1fr; 
     padding: 2rem;
-    max-width: auto;
-    max-height: auto;
     
 }
 .grid article{
     background-color: #e3d4c4;
+    display:flex auto fit-content;
 }
 .redpussy img{
     display:flex;
     margin: 0 auto;
     object-fit: cover;
-    width: 100%;
-    height: 100%center center/cover no-repeat;
+    width: 1500px;
+    height: 600px center center/cover no-repeat;
     
 }
 .redpussy2 img{
     border-radius: 50%;
     object-fit:cover;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.redpussy3 img{
+    border-radius: 50%;
+    object-fit:cover;
+    width: 100px;
+    height: 100px;
+    display: block;
 }
 .redcat img{
     display:flex;
