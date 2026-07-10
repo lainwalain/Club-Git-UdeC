@@ -3,7 +3,7 @@
     --udc-blue: hsl(0, 0%, 0%);
     --git-orange: #32f032;
     --bg-light: #7e7979;
-    --text-dark: #cf6767;
+    --text-dark: #ffffff;
 }
 
 body {
@@ -15,7 +15,8 @@ body {
     background-size:cover;
     max-width: 100%;
     justify-content: center;
-    background-color:#c6b29a;
+    /*background-color:#c6b29a;*/
+    background: url(https://i.pinimg.com/originals/5c/dd/52/5cdd52305a465e60c2d2baf2ebd7689b.gif) center center/cover no-repeat;
 }
 img {
     max-width: 300px;
@@ -23,15 +24,17 @@ img {
     justify-content: center;
 }
 header {
-    background-color: #661f21;
+    background-color: transparent;
     padding: 20px;
     text-align: center;
     z-index: 1000;
     border-radius:30px;
-    margin-right:1rem;
+    margin-right:2rem;
     margin-top:1rem;
     margin-bottom:1rem;
-    margin-left:1rem;
+    margin-left:2rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid #ffff;
 }
 .btn-cta1{
     color :var(--text-dark)
@@ -75,8 +78,11 @@ main {
     
 }
 .grid article{
-    background-color: #e3d4c4;
+    background-color:transparent;
     display:flex auto fit-content;
+    backdrop-filter:blur(15px);
+    border: 1px solid #ffff;
+    border-radius: 30px;
 }
 .redpussy img{
     display:flex;
@@ -84,7 +90,7 @@ main {
     object-fit: cover;
     min-width: 900px;
     height: 600px center center/cover no-repeat;
-    
+    border-radius: 30px;
 }
 .redpussy2 img{
     border-radius: 50%;
